@@ -9,12 +9,12 @@ var min = 1;
 
 for (var i = min; i <= max; i++) {
   if(i % 3 === 0 && i % 5 === 0) {
-    console.log('i', i, 'FizzBuzz');
+    console.log('i - ', i, 'FizzBuzz');
   } else if (i % 3 === 0) {
-    console.log('i', i, 'Fizz');
+    console.log('i - ', i, 'Fizz');
   } else if (i % 5 === 0) {
-    console.log('i', i, 'Buzz');
+    console.log('i - ', i, 'Buzz');
   } else {
-    console.log('i', i);
+    console.log('i - ', i);
   }
 }
