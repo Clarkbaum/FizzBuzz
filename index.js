@@ -14,5 +14,7 @@ for (var i = min; i <= max; i++) {
     console.log('i', i, 'Fizz');
   } else if (i % 5 === 0) {
     console.log('i', i, 'Buzz');
+  } else {
+    console.log('i', i);
   }
 }
