@@ -5,5 +5,5 @@
 Navigate to root directory
 
 ```
-node index.js
+npm start
 ```
